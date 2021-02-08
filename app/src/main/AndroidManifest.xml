@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.agora.openlive">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:name=".AgoraApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/plus"
+        android:roundIcon="@drawable/plus"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+        <activity
+            android:name=".activities.LiveActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activities.RoleActivity"
+            android:screenOrientation="portrait"
+            android:noHistory="true"/>
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:screenOrientation="portrait"/>
+
+
+
+
+
+        <activity
+            android:name="io.agora.openlive.DoctorUI.MyPatientMedicalFolderActivity"
+            android:label="@string/title_activity_my_patient_medical_folder"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="io.agora.openlive.activities.DoctorsBySpecialityActivity" />
+        <activity
+            android:name="io.agora.openlive.DoctorUI.DoctorAppointments"
+            android:label="@string/title_activity_doctor_appointments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="io.agora.openlive.DoctorUI.DoctorEditProfileInfo" />
+        <activity android:name="io.agora.openlive.DoctorUI.DisplayDoctorProfileInfo" />
+        <activity android:name="io.agora.openlive.DoctorUI.MyPatientInfoActivity" />
+        <activity android:name="io.agora.openlive.DoctorUI.MyPatientsActivity" />
+        <activity android:name="io.agora.openlive.DoctorUI.DisplayPatientInfo" />
+        <activity android:name="io.agora.openlive.activities.MyDoctorInfoActivity" />
+        <activity android:name="io.agora.openlive.activities.MyDoctorsActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDGdBKRdzzXuPVQRVjPVZQn4eR-A1wuEcU" />
+
+        <activity
+            android:name="io.agora.openlive.activities.DoctorLocalisation"
+            android:label="@string/title_activity_doctor_localisation" />
+        <activity android:name="io.agora.openlive.activities.ConsultationInfoActivity" />
+        <activity android:name="io.agora.openlive.activities.EmergencyCall" />
+        <activity
+            android:name="io.agora.openlive.activities.MedicalFolderActivity"
+            android:label="@string/title_activity_medical_folder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="io.agora.openlive.DoctorUI.SearchPatientActivity" />
+        <activity
+            android:name="io.agora.openlive.activities.AppointmentsActivity"
+            android:label="@string/title_activity_appointments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="io.agora.openlive.activities.ScheduleAppointmentActivity" />
+        <activity android:name="io.agora.openlive.DoctorUI.DoctorMenuActivity" />
+        <activity android:name="io.agora.openlive.activities.EditProfileActivity" />
+        <activity android:name="io.agora.openlive.activities.PatientProfileInformations" />
+        <activity android:name="io.agora.openlive.activities.DisplayDoctorInfo" />
+        <activity android:name="io.agora.openlive.activities.DisplayItemDataActivity" />
+        <activity android:name="io.agora.openlive.activities.SearchDoctorActivity" />
+        <activity android:name="io.agora.openlive.activities.CreateAccount" />
+        <activity android:name="io.agora.openlive.activities.SearchDoctorSpecialityActivity" />
+        <activity android:name="io.agora.openlive.activities.Mainvedio" />
+        <activity android:name="io.agora.openlive.activities.MenuActivity" />
+        <activity android:name="io.agora.openlive.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="io.agora.openlive.activities.DisplayPrescriptionPhoto" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

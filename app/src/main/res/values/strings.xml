@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name" translatable="false">SilverCity</string>
+    <string name="passwordforgotten" translatable="false"><u>Forgot your password ?</u></string>
+
+    <string-array name="doctorSpeciality">
+        <item>Plastic Surgery</item>
+        <item>Orthopaedic Surgeon</item>
+        <item>Cardiologist</item>
+        <item>Radiologist</item>
+        <item>Physician</item>
+        <item>Pediatrician</item>
+        <item>Gynaecologist</item>
+        <item>Ophthalmologist</item>
+        <item>Dentist</item>
+        <item>Surgeon</item>
+        <item>Psychiatrist</item>
+        <item>Anaesthetist</item>
+        <item>Physiotherapist</item>
+        <item>Neurologist</item>
+        <item>Nephrologist</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_search_doctor_speciality" translatable="false">SearchDoctorSpecialityActivity</string>
+    <string name="tab_text_1" translatable="false">Doctors</string>
+    <string name="tab_text_2" translatable="false">Speciality</string>
+    <string name="tab_text_3" translatable="false">On Hold</string>
+    <string name="tab_text_4" translatable="false">Accepted</string>
+    <string name="tab_text_5" translatable="false">Declined</string>
+    <string name="tab_text_6" translatable="false">Hospitalisations</string>
+    <string name="tab_text_7" translatable="false">Consultations</string>
+    <string name="title_activity_appointments" translatable="false">AppointmentsActivity</string>
+    <string name="title_activity_medical_folder" translatable="false">MedicalFolderActivity</string>
+    <string name="title_activity_doctor_localisation" translatable="false">Map</string>
+    <string name="title_activity_doctor_appointments" translatable="false">DoctorAppointments</string>
+    <string name="title_activity_my_patient_medical_folder" translatable="false">MyPatientMedicalFolderActivity</string>
+
+
+    <!-- Main Activity -->
+    <string name="start_broadcast_title">Start Live Streaming</string>
+    <string name="topic_edit_hint">Enter a channel name</string>
+    <string name="powered_by_agora" translatable="false">Powered by agora.io</string>
+    <string name="need_necessary_permissions">Necessary permissions acquired</string>
+
+    <!-- Setting Activity -->
+    <string name="setting_title">Settings</string>
+    <string name="setting_resolution_title">Resolution</string>
+    <string name="setting_stats_title">Show video statistics</string>
+    <string name="setting_mirror_local_title">Local video preview mirror mode</string>
+    <string name="setting_mirror_remote_title">Remote video render mirror mode</string>
+    <string name="setting_mirror_encode_title">Local video encode mirror mode</string>
+
+    <string-array name="string_array_resolutions">
+        <item>320x240</item>
+        <item>480x360</item>
+        <item>640x360</item>
+        <item>640x480</item>
+        <item>960x540</item>
+        <item>1280x720</item>
+    </string-array>
+
+    <!-- Live Activity -->
+    <string name="fake_user_name" translatable="false">Shakespeare</string>
+
+    <!-- Role Choose Activity -->
+    <string name="select_role_title">Please choose your role</string>
+    <string name="select_role_broadcaster">Broadcaster</string>
+    <string name="select_role_audience">Audience</string>
+    <string name="select_role_broadcaster_hint">Join as broadcaster</string>
+    <string name="select_role_audience_hint">Join as audience</string>
+
+    <!-- Legal digits for channel names -->
+    <string name="legal_channel_name_characters" translatable="false">&#xA0;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&amp;()+,-:;&lt;=.>?@[]^_`{|}~</string>
+    <string name="join_as_patient">join as patient</string>
+    <string name="patient">Patient</string>
+    <string name="join_as_doctor">join as Doctor</string>
+    <string name="hosting_doctor">Hosting Doctor</string>
+
+</resources>
